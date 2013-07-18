@@ -1,0 +1,16 @@
+.element-user .span {
+  text-align: center;
+  padding: 30px 5px; }
+.element-user img {
+  border-radius: 100px;
+  margin-bottom: 30px; }
+.element-user input[type="text"] {
+  border-radius: 0;
+  border-color: #a4a4a4; }
+.element-user .input-append .add-on:last-child {
+  border-radius: 0;
+  background-color: #f9ab2e;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 18px;
+  color: white; }
