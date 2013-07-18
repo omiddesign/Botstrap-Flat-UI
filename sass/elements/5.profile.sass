@@ -1,0 +1,53 @@
+.element-profile
+	padding-top: 20px
+
+	.user-information
+		h2
+			text-transform: uppercase
+			margin-bottom: 4px
+			margin-top: 20px
+			font-size: 17px
+			line-height: 20px
+
+.element-buttons
+	padding-top: 30px
+	margin-bottom: 0
+	a
+		text-align: center
+		padding: 14px 0 0 0
+		color: $white
+		font-size: 12px
+
+		&[class*="span"]
+			margin-left: 0
+
+		i
+			font-size: 18px
+
+		// ToDo: add hover effects
+		&.red
+			background-color: #f75556
+		&.orange
+			background-color: #e69941
+		&.cyan // (`ish)
+			background-color: #1fbba6
+
+
+		&.small
+			margin-top: 30px
+			line-height: 10px
+			padding: 10px 0 0 0
+			border-top: 1px solid #bdbfbf
+			color: #bdbfbf
+			font-size: 14px
+			width: 89px // ToDo: fix this in the future
+
+			&:hover
+				background-color: #bdbfbf
+				color: $white
+
+			i
+				font-size: 14px
+
+		&:hover
+			text-decoration: none
