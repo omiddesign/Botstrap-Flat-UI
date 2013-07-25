@@ -10,7 +10,7 @@ body
 	background: url(../img/header-pattern.png) 0 -150px repeat-x
 	color: #c7c7c7
 
-[class*="span"]
+body > div > [class*="span"]
 	background-color: #fff
 
 .container
@@ -36,8 +36,28 @@ h2
 [class*="element-"]
 	margin-bottom: 20px
 
+
+input[type="text"],
+textarea
+	border-radius: 0
+	border-color: #ddd
+
+.btn
+	border-radius: 0
+	background: $orange
+	border: 0
+	font-size: 16px
+	color: $white
+	text-shadow: none
+
+	&:hover
+		background: #ed9507
+		color: $white
+
+
 @import "elements/2.my_network"
 @import "elements/3.admin_login"
 @import "elements/4.my_skills"
 @import "elements/5.profile"
+@import "elements/8.profile_compose_email"
 @import "elements/10.social_followers"

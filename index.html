@@ -73,7 +73,7 @@
 					<div class="input-append">
 						<input type="text" placeholder="Security Code">
 
-						<button class="add-on" type="submit">
+						<button class="btn add-on" type="submit">
 							<i class="icon-angle-right"></i>
 						</button>
 					</div>
@@ -83,7 +83,7 @@
 
 		<!-- Profile block -->
 		<div class="span4 element-profile">
-			<div class="container-fluid">
+			<div class="container-fluid profile-header">
 
 				<div class="row-fluid">
 					<div class="span4">
@@ -118,6 +118,54 @@
 					<p><i class="icon-cog"></i> Settings</p>
 				</a>
 			</div>
+		</div>
+
+		<!-- Profile compose email block -->
+		<div class="span4 element-profile-compose-email">
+			<div class="container-fluid profile-header">
+
+				<div class="row-fluid">
+					<div class="span4 image">
+						<img src="img/profile-picture.png" alt="profile picture">
+					</div>
+
+					<div class="span7 offset1 user-information">
+						<h2>Hrithik Roshan</h2>
+						<p>Actor/Director</p>
+					</div>
+				</div>
+
+			</div>
+
+			<ul class="nav nav-tabs">
+				<li><a href="#aboutme" data-toggle="tab"><i class="icon-user"></i> About me</a></li>
+				<li class="active"><a href="#profile" data-toggle="tab"><i class="icon-comments-alt"></i> Message</a></li>
+				<li><a href="#addfriend" data-toggle="tab"><i class="icon-plus-sign"></i> Add friend</a></li>
+			</ul>
+
+			<div class="tab-content container-fluid">
+
+				<div class="tab-pane" id="aboutme"></div>
+
+				<div class="tab-pane active" id="profile">
+					<form method="post">
+
+						<input type="text" name="subject" class="input-block-level" placeholder="Subject">
+
+						<textarea name="message" placeholder="Message" class="input-block-level" rows="4"></textarea>
+
+						<label class="checkbox inline">
+							<input type="checkbox" name="reply" value="Y"> Reply to this email
+						</label>
+
+						<button type="submit" class="btn pull-right">Send</button>
+					</form>
+				</div>
+
+				<div class="tab-pane" id="addfriend"></div>
+
+			</div>
+
 		</div>
 
 		<!-- Social follower block -->
