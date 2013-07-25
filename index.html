@@ -24,230 +24,245 @@
 			<!-- <h1>By <a href="http://www.webdesignerdepot.com/">WebDesignerDepot</a>, <a href="http://www.freepik.com/">FreePik</a> and <a href="http://mja.lv/">MJA</a></h1> -->
 		</header>
 
-		<!-- My network element -->
-		<div class="span4 element-my-network">
-			<h2 class="text-center">My Network</h2>
+		<div id="content">
 
-			<!-- ToDo: make them clickable -->
-			<div class="container-fluid row-fluid">
+			<!-- My network element -->
+			<div class="span4 element-my-network">
+				<h2 class="text-center">My Network</h2>
 
-				<div class="span3 block">
-					<div class="network-icon twitter">
+				<!-- ToDo: make them clickable -->
+				<div class="container-fluid row-fluid">
+
+					<div class="span3 block">
+						<div class="network-icon twitter">
+							<i class="icon-twitter"></i>
+						</div>
+
+						<p>Twitter</p>
+					</div>
+
+					<div class="span3 block">
+						<div class="network-icon facebook">
+							<i class="icon-facebook"></i>
+						</div>
+
+						<p>Facebook</p>
+					</div>
+
+					<div class="span3 block">
+						<div class="network-icon dribble">
+							<img src="img/dribble.png" alt="dribble">
+						</div>
+
+						<p>Dribble</p>
+					</div>
+			
+				</div>
+			</div>
+
+			<!-- Admin login element -->
+			<div class="span4 element-admin-login">
+				<div>
+					<a href="#" class="pull-right gray-button">
+						<i class="icon-cog"></i>
+					</a>
+
+					<img src="img/profile-picture.png" alt="profile picture" class="img-circle">
+
+					<p>Welcome back, Admin!</p>
+
+					<form method="post">
+						<div class="input-append">
+							<input type="text" placeholder="Security Code">
+
+							<button class="btn add-on" type="submit">
+								<i class="icon-angle-right"></i>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+					<!-- My skills element -->
+			<div class="span3 element-my-skills">
+				<div class="container-fluid">
+					<h2 class="text-center"><i class="icon-user"></i> My skills</h2 class="centered">
+
+					<div class="block">
+						<p>Photoshop</p>
+						<div class="progress">
+							<div class="bar" style="width:80%"></div>
+						</div>
+					</div>
+
+					<div class="block">
+						<p>Ilustrator</p>
+						<div class="progress">
+							<div class="bar" style="width:50%"></div>
+						</div>
+					</div>
+
+					<div class="block">
+						<p>Wordpress</p>
+						<div class="progress">
+							<div class="bar" style="width:75%"></div>
+						</div>
+					</div>
+
+					<div class="block">
+						<p>Joomla</p>
+						<div class="progress">
+							<div class="bar" style="width:90%"></div>
+						</div>
+					</div>
+
+					<a href="#" class="simple-button">
+						<i class="icon-cloud-download"></i> Download my resume
+					</a>
+				</div>
+			</div>
+
+			<!-- Profile block -->
+			<div class="span4 element-profile">
+				<div class="container-fluid profile-header">
+
+					<div class="row-fluid">
+						<div class="span4">
+							<img src="img/profile-picture.png" alt="profile picture">
+						</div>
+
+						<div class="span7 offset1 user-information">
+							<h2>Hrithik Roshan</h2>
+							<p>Actor/Director</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row-fluid profile-buttons">
+					<a class="span3 red" href="#">
+						<i class="icon-heart"></i>
+						<p>1254</p>
+					</a>
+
+					<a class="span3 orange" href="#">
+						<i class="icon-user"></i>
+						<p>32 friends</p>
+					</a>
+
+					<a class="span3 cyan" href="#">
+						<i class="icon-camera"></i>
+						<p>0 photos</p>
+					</a>
+
+					<a class="span3 small" href="#">
+						<p><i class="icon-cog"></i> Settings</p>
+					</a>
+				</div>
+			</div>
+
+			<!-- Profile compose email block -->
+			<div class="span4 element-profile-compose-email">
+				<div class="container-fluid profile-header">
+
+					<div class="row-fluid">
+						<div class="span4 image">
+							<img src="img/profile-picture.png" alt="profile picture">
+						</div>
+
+						<div class="span7 offset1 user-information">
+							<h2>Hrithik Roshan</h2>
+							<p>Actor/Director</p>
+						</div>
+					</div>
+
+				</div>
+
+				<ul class="nav nav-tabs">
+					<li><a href="#aboutme" data-toggle="tab"><i class="icon-user"></i> About me</a></li>
+					<li class="active"><a href="#profile" data-toggle="tab"><i class="icon-comments-alt"></i> Message</a></li>
+					<li><a href="#addfriend" data-toggle="tab"><i class="icon-plus-sign"></i> Add friend</a></li>
+				</ul>
+
+				<div class="tab-content container-fluid">
+
+					<div class="tab-pane" id="aboutme"></div>
+
+					<div class="tab-pane active" id="profile">
+						<form method="post">
+
+							<input type="text" name="subject" class="input-block-level" placeholder="Subject">
+
+							<textarea name="message" placeholder="Message" class="input-block-level" rows="4"></textarea>
+
+							<label class="checkbox inline">
+								<input type="checkbox" name="reply" value="Y"> Reply to this email
+							</label>
+
+							<button type="submit" class="btn pull-right">Send</button>
+						</form>
+					</div>
+
+					<div class="tab-pane" id="addfriend"></div>
+
+				</div>
+
+			</div>
+
+			<!-- Social follower block -->
+			<div class="span3 element-social-followers">
+
+				<div class="row-fluid">
+					<div class="span4 follower-icon twitter">
 						<i class="icon-twitter"></i>
 					</div>
 
-					<p>Twitter</p>
+					<div class="span8 follower-content">
+						<h3>1524</h3>
+						<p>Followers</p>
+					</div>
 				</div>
 
-				<div class="span3 block">
-					<div class="network-icon facebook">
+				<div class="row-fluid">
+					<div class="span4 follower-icon facebook">
 						<i class="icon-facebook"></i>
 					</div>
 
-					<p>Facebook</p>
+					<div class="span8 follower-content">
+						<h3>20k</h3>
+						<p>Likes</p>
+					</div>
 				</div>
 
-				<div class="span3 block">
-					<div class="network-icon dribble">
+				<div class="row-fluid">
+					<div class="span4 follower-icon dribble">
 						<img src="img/dribble.png" alt="dribble">
 					</div>
 
-					<p>Dribble</p>
+					<div class="span8 follower-content">
+						<h3>3000</h3>
+						<p>Followers</p>
+					</div>
 				</div>
+
+			</div>
 		
-			</div>
 		</div>
-
-		<!-- Admin login element -->
-		<div class="span4 element-admin-login">
-			<div>
-				<a href="#" class="pull-right gray-button">
-					<i class="icon-cog"></i>
-				</a>
-
-				<img src="img/profile-picture.png" alt="profile picture" class="img-circle">
-
-				<p>Welcome back, Admin!</p>
-
-				<form method="post">
-					<div class="input-append">
-						<input type="text" placeholder="Security Code">
-
-						<button class="btn add-on" type="submit">
-							<i class="icon-angle-right"></i>
-						</button>
-					</div>
-				</form>
-			</div>
-		</div>
-
-		<!-- Profile block -->
-		<div class="span4 element-profile">
-			<div class="container-fluid profile-header">
-
-				<div class="row-fluid">
-					<div class="span4">
-						<img src="img/profile-picture.png" alt="profile picture">
-					</div>
-
-					<div class="span7 offset1 user-information">
-						<h2>Hrithik Roshan</h2>
-						<p>Actor/Director</p>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="row-fluid element-buttons">
-				<a class="span3 red" href="#">
-					<i class="icon-heart"></i>
-					<p>1254</p>
-				</a>
-
-				<a class="span3 orange" href="#">
-					<i class="icon-user"></i>
-					<p>32 friends</p>
-				</a>
-
-				<a class="span3 cyan" href="#">
-					<i class="icon-camera"></i>
-					<p>0 photos</p>
-				</a>
-
-				<a class="span3 small" href="#">
-					<p><i class="icon-cog"></i> Settings</p>
-				</a>
-			</div>
-		</div>
-
-		<!-- Profile compose email block -->
-		<div class="span4 element-profile-compose-email">
-			<div class="container-fluid profile-header">
-
-				<div class="row-fluid">
-					<div class="span4 image">
-						<img src="img/profile-picture.png" alt="profile picture">
-					</div>
-
-					<div class="span7 offset1 user-information">
-						<h2>Hrithik Roshan</h2>
-						<p>Actor/Director</p>
-					</div>
-				</div>
-
-			</div>
-
-			<ul class="nav nav-tabs">
-				<li><a href="#aboutme" data-toggle="tab"><i class="icon-user"></i> About me</a></li>
-				<li class="active"><a href="#profile" data-toggle="tab"><i class="icon-comments-alt"></i> Message</a></li>
-				<li><a href="#addfriend" data-toggle="tab"><i class="icon-plus-sign"></i> Add friend</a></li>
-			</ul>
-
-			<div class="tab-content container-fluid">
-
-				<div class="tab-pane" id="aboutme"></div>
-
-				<div class="tab-pane active" id="profile">
-					<form method="post">
-
-						<input type="text" name="subject" class="input-block-level" placeholder="Subject">
-
-						<textarea name="message" placeholder="Message" class="input-block-level" rows="4"></textarea>
-
-						<label class="checkbox inline">
-							<input type="checkbox" name="reply" value="Y"> Reply to this email
-						</label>
-
-						<button type="submit" class="btn pull-right">Send</button>
-					</form>
-				</div>
-
-				<div class="tab-pane" id="addfriend"></div>
-
-			</div>
-
-		</div>
-
-		<!-- Social follower block -->
-		<div class="span3 element-social-followers">
-
-			<div class="row-fluid">
-				<div class="span4 follower-icon twitter">
-					<i class="icon-twitter"></i>
-				</div>
-
-				<div class="span8 follower-content">
-					<h3>1524</h3>
-					<p>Followers</p>
-				</div>
-			</div>
-
-			<div class="row-fluid">
-				<div class="span4 follower-icon facebook">
-					<i class="icon-facebook"></i>
-				</div>
-
-				<div class="span8 follower-content">
-					<h3>20k</h3>
-					<p>Likes</p>
-				</div>
-			</div>
-
-			<div class="row-fluid">
-				<div class="span4 follower-icon dribble">
-					<img src="img/dribble.png" alt="dribble">
-				</div>
-
-				<div class="span8 follower-content">
-					<h3>3000</h3>
-					<p>Followers</p>
-				</div>
-			</div>
-
-		</div>
-
-		<!-- My skills element -->
-		<div class="span3 element-my-skills">
-			<div class="container-fluid">
-				<h2 class="text-center"><i class="icon-user"></i> My skills</h2 class="centered">
-
-				<div class="block">
-					<p>Photoshop</p>
-					<div class="progress">
-						<div class="bar" style="width:80%"></div>
-					</div>
-				</div>
-
-				<div class="block">
-					<p>Ilustrator</p>
-					<div class="progress">
-						<div class="bar" style="width:50%"></div>
-					</div>
-				</div>
-
-				<div class="block">
-					<p>Wordpress</p>
-					<div class="progress">
-						<div class="bar" style="width:75%"></div>
-					</div>
-				</div>
-
-				<div class="block">
-					<p>Joomla</p>
-					<div class="progress">
-						<div class="bar" style="width:90%"></div>
-					</div>
-				</div>
-
-				<a href="#" class="simple-button">
-					<i class="icon-cloud-download"></i> Download my resume
-				</a>
-			</div>
-		</div>
-
 	</div>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-	<script type="text/javascript" href="js/jquery.knob.js"></script>
+	<script type="text/javascript" src="js/jquery.knob.js"></script>
+	<script type="text/javascript" src="js/masonry.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+
+		var container = document.querySelector('#content');
+		var msnry = new Masonry( container, {
+			itemSelector: '[class*="element-"]',
+			columnWidth: 1,
+		});
+
+	});
+	</script>
 </body>
 </html>
